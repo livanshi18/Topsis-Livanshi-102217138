@@ -12,7 +12,7 @@ def main():
         topsis(input_file, weights, impacts, result_file)
     else:
         print("Usage: python <program.py> <InputDataFile> <Weights> <Impacts> <ResultFileName>")
-        print("Example: python 103812-topsis.py 103812-data.csv \"1,1,1,2\" \"+,+,-,+\" 103812-result.csv")
+        print("Example: python 217138-topsis.py 21738-data.csv \"1,1,1,2\" \"+,+,-,+\" 103812-result.csv")
 
 def topsis(input_file, weights, impacts, result_file):
     try:
